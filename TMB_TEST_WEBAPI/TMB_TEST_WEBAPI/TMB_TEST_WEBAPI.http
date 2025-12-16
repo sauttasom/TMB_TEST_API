@@ -1,0 +1,10 @@
+@TMB_TEST_WEBAPI_HostAddress = http://localhost:5146
+
+GET {{TMB_TEST_WEBAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+
+
+###
+GET {{TMB_TEST_WEBAPI_HostAddress}}/Phone/api/phone-list
+Accept: application/json
